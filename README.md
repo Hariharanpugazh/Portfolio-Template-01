@@ -1,110 +1,147 @@
-## Hey 👋, I'm Hariharan!  
-  
+# Modern Portfolio Template
 
-<a href="https://github.com/Hariharanpugazh" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://dev.to/hari_haran_9888e00950b8ee" target="_blank">
-<img src=https://img.shields.io/badge/dev.to-%2308090A.svg?&style=for-the-badge&logo=dev.to&logoColor=white alt=devto style="margin-bottom: 5px;" />
-</a>
-<a href="https://www..com/in/hari-haran-z/" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://twitter.com/krishneshw44520" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
-</a>
-<a href="https://www.kaggle.com/hariharan2334" target="_blank">
-<img src=https://img.shields.io/badge/kaggle-%2344BAE8.svg?&style=for-the-badge&logo=kaggle&logoColor=white alt=kaggle style="margin-bottom: 5px;" />
-</a>  
-  
+A clean, modern, and fully responsive portfolio template built with Next.js 13, TypeScript, and Tailwind CSS. Perfect for developers, designers, and professionals looking to showcase their work and skills.
 
+## ✨ Features
 
+- **Modern Design** - Clean and professional UI with smooth animations
+- **Responsive Layout** - Optimized for all device sizes
+- **Dark/Light Theme** - Toggle between themes with persistent storage
+- **Contact Form** - Functional email contact form using Resend API
+- **Smooth Animations** - Framer Motion animations and scroll effects
+- **SEO Optimized** - Built with Next.js 13 for optimal performance
+- **Type Safe** - Full TypeScript implementation
+- **Fast Loading** - Optimized images and performance
 
-### Glad to see you here!  
-I’m a versatile developer with a passion for creating innovative solutions across various domains. My journey spans from mastering Python and machine learning to diving deep into AOSP/Custom OS development. I thrive on pushing the boundaries of what’s possible, whether it's building dynamic 3D applications or developing highly customized operating systems.
+## 🛠️ Tech Stack
 
-I specialize in developing powerful, efficient systems that are as elegant as they are effective. My work ranges from crafting custom OS environments to implementing machine learning models that drive smarter, data-driven decisions. I’m deeply interested in the intersection of software and hardware, and I enjoy exploring how they can be optimized and synchronized for peak performance.
+- **Framework:** Next.js 13 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Email:** Resend API + React Email
+- **Icons:** React Icons
+- **Deployment:** Vercel Ready
+- **Analytics:** Vercel Analytics
 
-I’m also keen on sharing my insights and knowledge, whether it's through projects, code, or contributions to the open-source community. My focus is on creating technology that not only meets today’s needs but also anticipates tomorrow’s challenges.😉  
-  
+## 🚀 Quick Start
 
-<br/>  
+### Prerequisites
 
+- Node.js 18.0 or later
+- npm, yarn, or pnpm
 
-## About Me 
-<table><tr><td valign="top" width="50%">
+### Installation
 
-- 🔭 I’m currently working on [Concentration Drop Analysis]  
-  
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/portfolio-template.git
+   cd portfolio-template
+   ```
 
-- 🌱 I completed an internship focused on machine learning.  
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
+3. **Set up environment variables**
+   ```bash
+   cp .env.example .env.local
+   ```
+   Add your Resend API key:
+   ```
+   RESEND_API_KEY=your_resend_api_key_here
+   ```
 
-</td><td valign="top" width="50%">
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-<div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  
+5. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
+## 🎨 Customization
 
-</td></tr></table>  
+### Personal Information
 
-<br/>  
+Edit the following files to add your personal information:
 
+- **`lib/data.ts`** - Update projects, skills, experience, and navigation
+- **`components/Intro.tsx`** - Modify introduction text and social links
+- **`public/`** - Replace profile image and project screenshots
+- **`public/Resume.pdf`** - Add your resume/CV
 
-## Languages and Tools  
-<div align="center">  
-<a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="25" /></a>  
-<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="25" /></a>  
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="25" /></a>  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="25" /></a>  
-<a href="https://www.cplusplus.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="25" /></a>  
-<a href="https://www.docker.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="25" /></a>  
-<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="25" /></a>  
-<a href="https://www.php.net/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="25" /></a>  
-<a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="25" /></a>  
-<a href="https://www.mongodb.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="25" /></a>  
-<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="25" /></a>  
-<a href="https://flask.palletsprojects.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/flask.png" alt="Flask" height="25" /></a>  
-<a href="https://www.apachefriends.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/xampp.png" alt="XAMPP" height="25" /></a>  
-<a href="https://www.chartjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/logo-title.svg" alt="Chart.js" height="25" /></a>  
-<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="25" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="25" /></a>  
-<a href="https://firebase.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/firebase.png" alt="Firebase" height="25" /></a>  
-<a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="25" /></a>  
-<a href="https://www.r-project.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/r.svg" alt="R" height="25" /></a>  
-<a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/adobe_illustrator-icon.svg" alt="Illustrator" height="25" /></a>  
-<a href="https://www.adobe.com/in/products/aftereffects.html" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/aftereffects.png" alt="After Effects" height="25" /></a>  
-<a href="https://dotnet.microsoft.com/download/dotnet-framework" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/dot-net-original-wordmark.svg" alt=".NET" height="25" /></a>  
-</div>  
+### Styling
 
-<br/>  
+- **Colors:** Modify `tailwind.config.js` for custom color schemes
+- **Fonts:** Update `app/layout.tsx` for different font families
+- **Layout:** Adjust spacing and sizing in component files
 
+### Contact Form
 
-## Github Stats  
-<table><tr><td valign="top" width="50%">
+1. Sign up for a [Resend](https://resend.com) account
+2. Get your API key and add it to `.env.local`
+3. Update the recipient email in `components/actions/sendEmail.ts`
 
-<img src="https://github-readme-stats.vercel.app/api?username=Hariharanpugazh&show_icons=true&count_private=true&hide_border=true" align="left" style="width: 100%" />
+## 🚀 Deployment
 
-</td><td valign="top" width="50%">
+### Vercel (Recommended)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hariharanpugazh&hide_border=true&layout=compact" align="left" style="width: 100%" />
+1. Push your code to GitHub
+2. Connect your repository to [Vercel](https://vercel.com)
+3. Add environment variables in Vercel dashboard
+4. Deploy automatically
 
-</td></tr></table>  
+### Other Platforms
 
-<br/>  
+This template works with any platform that supports Next.js:
+- Netlify
+- Railway
+- DigitalOcean App Platform
+- AWS Amplify
 
-  
+## 📁 Project Structure
 
-<br/>  
+```
+├── app/                    # Next.js 13 app directory
+│   ├── globals.css         # Global styles
+│   ├── layout.tsx          # Root layout
+│   └── page.tsx           # Home page
+├── components/            # React components
+│   ├── About.tsx          # About section
+│   ├── Contact.tsx        # Contact form
+│   ├── Experience.tsx     # Experience timeline
+│   ├── Projects.tsx       # Projects showcase
+│   ├── Skills.tsx         # Skills section
+│   └── ThemeSwitch.tsx    # Dark/light toggle
+├── context/               # React context providers
+├── lib/                   # Utilities and data
+│   ├── data.ts           # Portfolio content
+│   ├── hooks.ts          # Custom hooks
+│   └── types.ts          # TypeScript types
+└── public/               # Static assets
+```
 
-![Profile views counter](https://komarev.com/ghpvc/?username=Hariharanpugazh&&style=flat-square)  
-  
+## 🌐 Browser Support
 
-<br/>  
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
+## 📄 License
 
-<br />
+This project is open source and available under the [MIT License](LICENSE).
 
-----
+## 🤝 Contributing
 
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## ⭐ Support
+
+If you found this template helpful, please give it a star on GitHub!
+
+---
+
+**Made with Next.js and Tailwind CSS**
